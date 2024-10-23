@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "depth-estimation"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Donn <30521025+phinik@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "depth_estimation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+tqdm = "^4.65.0"
+pyaml = "^23.5.9"
+scikit-learn = "^1.2.2"
+opencv-python = "^4.7.0.72"
+tensorboard = "^2.13.0"
+matplotlib = "^3.7.1"
+optuna = "^3.2.0"
+pillow = "^9.5.0"
+pyyaml = "^6.0.2"
+torch = "^2.4.0"
+torchvision = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
